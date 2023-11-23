@@ -1,0 +1,440 @@
+html {
+   max-width: max-content;
+}
+@media screen and (max-width: 1255px) {
+   /* СЕКЦИЯ 1 */
+   .welcome-s1 {
+      font-size: 250%;
+   }
+   
+.right_s3 img {
+   width: 30%;
+}
+.text_s3-1 {
+   margin-bottom: 1%;
+}
+.right_s3 {
+   width: 40%;
+   height: 50%;
+}
+
+
+  
+}
+@media screen and (max-width: 1245px) {
+   .text_s3-1 {
+      font-size: 60%;
+      padding: 1%;
+      height: 60%; width: 90%;
+   }
+   .text_s3-2 {
+      font-size: 60%;
+      height: 40%; width: 90%;
+   }
+
+   .right_s3 img {
+      width: 80%; height: 100%;
+   }
+}
+@media screen and (max-width: 1171px) {
+   /* СЕКЦИЯ 1 */
+
+   .welcome-s1 {
+      font-size: 320%;
+   }
+}
+@media screen and (max-width: 1171px) {
+   /* СЕКЦИЯ 1 */
+
+   .welcome-s1 {
+      font-size: 300%;
+   }
+   .coin , .coin5 {
+      margin: 0 auto;
+      width: 80%;
+   }
+   .flex_s5 {
+      margin: 0 8%;
+   }
+   .card p , .card5 p {
+      width: 80%;
+      margin: 0 auto;
+   }
+   .card5 {
+      margin: 0 auto;
+   }
+   .p-3_s5 {
+      height: 100%;
+   }
+   /* СЕКЦИЯ - 7  */
+.blocks_s7 {
+   padding: 2% 4%;
+   margin: 0 auto;
+   justify-content: space-between;
+
+   }
+   .block-1_s7 {
+      width: 40%;
+      margin: 0% 2%;
+   }
+   .block-2_s7 {
+      margin: 0% 2%;
+      width: 40%;
+   }
+   
+}
+@media screen and (max-width: 1030px) {
+   /* СЕКЦИЯ 1 */
+
+   .welcome-s1 {
+      font-size: 300%;
+      width: 50%;
+   }
+   .text_s3-1 { position: relative;
+      font-size: 50%;
+      padding: 1%; 
+      height: max-content; width: 100%;
+   }
+   .left_s3 {
+      margin: 0 auto;
+      position: relative;
+
+   }
+   .text_s3-2 {
+      font-size: 50%;
+      height: 35%; width: 100%;
+   }
+   .right_s3 img { margin: 0 auto;
+      width: 50%; height: 95%;
+   }
+   .flex_s3 { margin: 0 auto; text-align: center;
+      position: relative;
+   }
+   /* СЕКЦИЯ-4  */
+   .coin , .coin5 {
+      width: 80%;
+   }
+      /* СЕКЦИЯ-6  */
+      .blocks_s6 {
+         margin: 0 auto;
+         padding: 0 1%;
+      }
+      .block-1_s6 {
+         margin: 0 auto;
+         width: 40%;
+      }
+   .right_s3 {
+      display: none;
+   }
+   .text_s3-2 {
+      margin: 0 auto;
+      height: 95%;
+   }
+   .left_s3 {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 15px;
+   }
+   /* СЕКЦИЯ-8  */
+   .right-s8 {
+      width: 50%; 
+      padding-top: 5%;
+   }
+
+
+   .quote {
+      width: 100%;
+   }
+   .flex_f {margin: 0 auto; text-align: center;}
+   .right_f h2 {
+      font-size: 80%;
+   }
+   .text-social_f h2{
+      font-size: 100%;
+   }
+   .left_f {
+      font-size: 80%;
+   }
+}
+
+@media screen and (max-width: 825px) { 
+   .text_s3-2 h2{
+      line-height: 164%;
+      letter-spacing: 3px;
+   }
+   .text_s3-1 {
+      margin: 0 auto;
+   }
+   .text_s3-2 {
+      margin: 0 auto;
+   }
+
+   .left_s3 {
+      justify-content: center;
+      text-align: center;
+      margin: 0 auto;
+   }
+
+}
+
+@media screen and (max-width: 840px) {
+   /* СЕКЦИЯ 1 */
+
+   .welcome-s1 {
+      font-size: 200%;
+   }
+   .section-1 {
+      padding: 5% 0;
+   }
+   /* СЕКЦИЯ-7  */
+   .blocks_s7 {
+      padding: 1% 0%;
+
+   }
+   .block-1_s7 {
+      display: none;
+   }
+   .block-2_s7 {
+      margin: 0 auto;
+      width: 80%;
+   }
+   /* СЕКЦИЯ-8  */
+   .right-s8 {
+      width: 80%; 
+      padding-top: 5%;
+   }
+}
+@media screen and (max-width: 825px) {
+   .right_s3 img {
+      display: none;
+   }
+   .text_s3-1 , .text_s3-2 {
+      border-radius: 20px;
+      width: 100%;
+      left: 0;
+   }
+   .left_s3 {
+      left: 0; margin: 0 auto;
+      width: 50%;
+   }
+   .flex_s3 {
+      flex-direction: column; justify-content: center;
+      margin: 0 auto; margin-left: 0%; left: 0;
+   }
+}
+@media screen and (max-width: 770px) {
+   .icon-menu {
+      display: block;
+   }
+
+   .text-1_s2, .text-2_s2 , .s2nav {
+      display: none;
+   }
+   
+}
+@media screen and (max-width: 700px) {
+   .blocks_s8 {
+      flex-direction: column; justify-content: center;
+   }
+   .left-s8 {
+      padding: 1%;
+   }
+   .left-s8 p {
+      font-size: 130%;
+      margin-bottom: 0%; margin-top: 1%;
+   }
+   .left-s8 h2{
+   font-size: 100%;
+   }
+   .n {
+      display: none;
+   }
+   .b {
+      display: block;
+   }
+   .right-s8 {
+      margin: 2% auto; text-align: center;
+      border-radius: 20px;
+   }
+}
+
+@media screen and (max-width: 645px) {
+   /* СЕКЦИЯ 1 */
+
+   .welcome-s1 {
+      font-size: 160%;
+   }
+   .section-1 {
+      padding: 5% 0;
+   }
+}
+@media screen and (max-width: 649px) {
+   /* СЕКЦИЯ 1 */
+
+   .name-company-s1 {
+      font-size: 100%;
+   }
+   .welcome-s1 {
+      font-size: 130%;
+      word-break: break-all;
+      letter-spacing: 5px;
+      width: 50%;
+      word-break: normal;
+   }
+   .section-1 {
+      padding: 10% 0;
+   }
+   /* СЕКЦИЯ-6 */
+   .blocks_s6 {
+      flex-direction: column-reverse; justify-content: center;
+   }
+   .block-2_s6 {
+      margin: 0 auto;
+      width: 40%; 
+      text-align: center;
+    
+   }
+   .block-1_s6 {
+      margin: 2% auto;
+      width: 80%;
+      font-size: 90%;
+   }
+   .section-6 {
+      padding-bottom: 0%;
+   }
+  
+}
+/* ______________________________566____________________________________ */
+
+@media screen and (max-width: 567px) {
+   .left_s3 {
+      flex-direction: column;
+   }
+
+}
+@media screen and (max-width: 545px) {
+   .right-s8 {
+      width: 100%;
+   }
+}
+
+/* ______________________________492____________________________________ */
+@media screen and (max-width: 492px) {
+   .card , .card5 {
+      margin: 1% 5%; 
+   }
+   .coin , .coin5 {
+      width: 100%;
+   }
+   .card p , .card5 p{
+      width: 100%;
+      font-size: 56%;
+   }
+   .p-1_s4 {
+      height: 46%;
+   }
+   /* СЕКЦИЯ-7 */
+  
+}
+/* _____________________________472____________________________________________ */
+@media screen and (max-width: 472px) {
+   .text_s3-1 , .text_s3-2 {
+      width: 100%;
+   }
+   .left_s3 {
+      width: 80%;
+   }
+   .section-3 {
+      padding: 4% 0;
+   }
+}
+@media screen and (max-width: 858px) {
+   .card p , .card5 p {
+      background-color: black;
+   }
+}
+
+@media screen and (max-width: 410px) {
+   /* СЕКЦИЯ 1 */
+   .welcome-s1 {
+      width: 80%;
+   }
+   .link {
+      padding: 3% 5%; font-size: 60%;
+   }
+   /* СЕКЦИЯ 7 */
+   .block-2_s7 {
+      width: 100%;
+   }
+ 
+   .quote {
+      display: none;
+   }
+   .m {
+      display: block;
+   }
+}
+
+@media screen and (max-width: 361px) {
+   .flex_s4 , .flex_s5 {
+      flex-direction: column;
+   }
+   .card p , .card5 p {
+      font-size: 80%;
+      border-radius: 0px 0 25px 25px;
+      background-color: auto;
+      background-color: #4F380B;
+   }
+   .coin img , .coin5 img {
+      animation: coin 45s infinite; 
+
+   }
+   .coin , .coin5 {
+      width: 50%;
+   }
+   .card , .card5 {
+      background-color: black;
+      margin: 3% auto;
+      width: 100%;
+      border: 2px solid #63470f;
+      border-radius: 25px;
+   }
+   .block-1_s6 {
+      margin: 2% auto;
+      width: 90%;
+      font-size: 90%;
+   }
+}
+@media screen and (max-width: 361px) {
+   .instagram {
+     
+      width: 30px; height: 30px;
+     
+   
+   }
+   .watsapp {
+         
+         width: 50px; height: 50px;
+        
+   
+   }
+   .vk {
+     
+      width: 30px; height: 30px;
+     
+   
+   }
+   .text-social_f {
+      font-size: 60%;
+   }
+   .left_f {
+      font-size: 20%;
+   }
+   .block-2_s6 {
+      margin: 0 auto;
+      width: 40%; 
+      font-size: 60%;
+      text-align: center;
+    
+   }
+}

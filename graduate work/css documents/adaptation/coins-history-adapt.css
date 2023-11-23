@@ -1,0 +1,104 @@
+@media screen and (max-width: 1245px) {
+   .name-company-s1 {
+      font-size: 130%;
+   }
+   .welcome-s1 {
+      width: 100%;
+   }
+   
+}
+@media screen and (max-width: 1085px) {
+   .block-2_s3 , .block-2_s4{
+      width: 60%; padding: 1% 2%;
+   }
+}
+@media screen and (max-width: 807px) {
+   .block-2_s3 , .block-1_s4 {
+      margin: 0 auto;
+      width: 60%; padding: 1% 2%;
+      margin-top: 1%;
+   }
+   .flex_s3 , .flex_s4 , .flex_s5 {
+      flex-direction: column; justify-content: center;
+   }
+   .block-1_s3 , .block-1_s4 { margin: 0 auto;
+      display: flex; flex-direction: column; justify-content: center;
+      width: 90%; text-align: center; 
+      background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+
+   }
+   .flex_s4 {
+      flex-direction: column-reverse; 
+   }
+   .card_s3 img , .card_s4 img, .card_s6 img , .card_s7 img{
+      width: 40%; margin: 0 auto;
+   }
+   
+   .card_s3 h2 , .card_s4 h2 , .card_s6 h2 ,.card_s7 h2{
+      width: 100%; 
+      font-size: 130%;
+      border: 1px solid rgb(59, 35, 0);
+
+   }
+  
+   .card_s3 , .card_s4 , .card_s6 , .card_s7 {width: 50%; }
+   .block-2_s3 , .block-2_s4 , .block-2_s5 {
+      width: 90%; font-size: 90%;
+   }
+   .block-2_s4 , .block-2_s5 {
+      margin: 0 auto;
+      margin-top: 1%;
+   }
+   .quote {
+      width: 100%;
+   }
+   .flex_f {margin: 0 auto; text-align: center;}
+   .right_f h2 {
+      font-size: 80%;
+   }
+   .text-social_f h2{
+      font-size: 100%;
+   }
+   .left_f {
+      font-size: 80%;
+   }
+}
+
+@media screen and (max-width: 515px) {
+.welcome-s1 {
+   font-size: 200%;
+}
+.block-2_s3 , .block-2_s4 , .block-2_s5 {
+   width: 100%; 
+}
+.block-1_s3 , .block-1_s4 { 
+   width: 100%;
+}
+}
+@media screen and (max-width: 350px) {
+   .welcome-s1 {
+      font-size: 150%;
+   }
+   .quote {
+      display: none;
+   }
+   .m {
+      display: block;
+   }
+   .text-social_f {
+      margin: 0 auto; text-align: center;
+      font-size: 60%;
+   }
+   .left_f {
+      font-size: 20%;
+   }
+   .quote {
+      width: 100%;
+   }
+   .flex_f {
+      margin: 0 auto; text-align: center;
+      display: flex; flex-direction: column; justify-content: center;
+   }
+  
+  
+}

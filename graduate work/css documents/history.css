@@ -1,0 +1,317 @@
+.container {margin: 0px 20px;} 
+/* СЕКЦИЯ-1 */
+body {
+   font-family: 'Comfortaa', cursive;
+
+}
+.section-1 {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/s3/fons/fon-1_s3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: max-content;
+}
+.text-s1 {
+   display: flex; justify-content: flex-start;
+   flex-direction: column;
+   color: white; padding: 0% 3%;
+}
+.name-company-s1 {
+   position: relative;
+   font-family: 'Courgette', cursive;
+   font-size: 180%;
+   margin-top: 4%;
+   margin-bottom: 21%;
+}
+.welcome-s1 {
+   font-family: 'Comfortaa', cursive;
+   font-size: 450%;
+   width: 50%; 
+   white-space: normal; word-wrap: break-word;
+   letter-spacing: 10px;
+    margin-top: 5%;
+}
+.vector-s1 { margin: 0 auto;
+   width: 5%; height: 2%; padding-bottom: 1%;
+}
+.bottom {
+   width: 100%; background-color: black; height: 5vh;
+}
+
+
+/* СЕКЦИЯ-2 НАВИГАЦИЯ */
+.section-2 {
+   background-color: black; color: white;
+   text-align: center;
+}
+.section-2 .container {
+   margin: 0 15%;
+}
+h2 {
+   font-family: 'Comfortaa', cursive;
+}
+.text_s2 {
+   font-family: 'Comfortaa', cursive;
+   gap: 10px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   font-size: 120%;
+   transition: 1s;
+}
+.text_s2 li {
+   margin: 8% 0;
+}
+ .text_s2 a:hover {color: rgb(229, 206, 147);}
+h2 {
+   padding: 1% 0;
+   position: relative;
+   cursor: pointer;
+	line-height: 1; /*задаём высоту строки*/
+}
+h2:after {
+   margin: 0 auto;
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #3e3300; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+h2:hover:after,
+h2:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+/* СЕКЦИЯ-3  */
+.section-3 {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/s3/fons/fon-2_s3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: max-content; color: white;
+   background-position: -66%; padding: 2% 0;
+}
+.flex_s3 {
+   display: flex; flex-direction: column;
+   text-align: center; padding: 2% 8%;
+}
+
+.block-1_s3 {
+   padding: 4% 0; margin-bottom: 4%;
+   font-size: 120%; border-radius: 20px;
+   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) );
+}
+.block-2_s3 {
+   display: flex; flex-direction: row; justify-content: space-between;
+}
+.block-2_s3 img {
+   width: 15%; height: 15vw; border-radius: 20px;
+}
+/* СЕКЦИЯ-4  */
+.section-4 {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/s3/fons/fon-3_s3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: max-content; color: white;
+   padding: 4% 0;
+}
+.block-1_s4 , .block-2_s4 {
+   display: flex;flex-direction: row; justify-content: space-between;
+}
+.block-1_s4 img, .block-2_s4 img{
+   width: 10%; height: 5%; border-radius: 50%;
+}
+.flex_s4 {
+   display: flex; flex-direction: column;
+}
+.block-1_s4 p , .block-2_s4 p {
+   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+   width: 50%; height: max-content;
+   padding: 2% 2%; border-radius: 20px;
+}
+
+/* СЕКЦИЯ-5  */
+.section-5 {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/s3/fons/fon-4_s3.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: max-content; color: white;
+   padding: 4% 8%;
+}
+.section-5 p {
+   font-size: 120%;
+   border-radius: 20px;
+   padding: 2% 2%;
+   text-align: center; line-height: 40px;
+   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+
+}
+
+/* СЕКЦИЯ-6  */
+.section-6 {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/s3/fons/fon-6_s3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: max-content; color: white;
+   padding: 4% 4%;
+}
+.flex_s6 {
+   display: flex; justify-content: center; flex-direction: column;
+}
+.block-top {
+   display: flex; flex-direction: row;
+   justify-content: center; margin-bottom: 2%;
+   height: 30%;
+}
+.block-top img {
+   border-radius: 20px;
+   width: 30%; margin: 0 5%;  height: max-content;
+}
+.block-top p { 
+   border-radius: 20px;
+
+   width: 40%; margin:  0 5%; padding: 1%;
+   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+
+}
+.block-bottom p{ text-align: center;
+   border-radius: 20px;
+   margin: 0 auto;
+   width: 80%;
+   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+   padding: 1% 2%;
+}
+
+/* СЕКЦИЯ-7  */
+.section-7 {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ), url(../images/s3/fons/fon7.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: max-content; color: white;
+   padding: 4% 4%;
+}
+.block_s7 {
+   display: flex; flex-direction: row; justify-content: space-between;
+   padding: 0 4%;
+}
+.block_s7 p {
+      border-radius: 20px;
+      background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+      padding: 0% 1%;
+      width: 50%;
+}
+.block_s7 img {
+   border-radius: 20px;
+   width: 45%;
+}
+/* FOOTER  */
+/* FOTEEER */
+footer {
+   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/section-1Fons/footer1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: max-content;
+   color: white;
+   text-align: center;
+   font-family: 'Comfortaa', cursive;
+   padding: 2%;
+}
+.flex_f {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+.block-social_f {
+   display: flex; justify-content: center;
+   flex-direction: row; 
+   margin: 3% auto;
+   text-align: center;
+
+}
+.block-social_f a {
+   display: inline-block; vertical-align: middle;
+}
+.instagram {
+   background:  url(../images/social/инстаграм.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 50px; height: 50px;
+   margin: 0 0;
+
+}
+.watsapp {
+      background:  url(../images/social/ватсап.png);
+       background-repeat: no-repeat;
+      background-size: cover;
+      width: 90px; height: 90px;
+      margin: 0% 2%;
+      margin-top: -2%;
+
+}
+.vk {
+   background:  url(../images/social/вк.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 50px; height: 50px;
+   margin: 0 0;
+
+}
+.quote {
+   margin: 0 auto;
+   text-align: center;
+   width: 40%;
+}
+.text-social_f {
+   width: 50%; margin: 0 auto;
+}
+.right_f h2{
+   font-family: 'Courgette', cursive;
+
+}
+/* БУРГЕР МЕНЮ */
+
+
+
+.menu__list {
+   padding: 5% 0;
+   display: none; flex-direction: column;justify-content: center;
+   gap: 35px; font-size: 120%; text-align: center;
+   font-family: 'Comfortaa', cursive;
+   height: 60vh;
+
+}
+.container-b-menu {
+   display: block;
+}
+.menu__list li {list-style: none; margin: 2%;}
+.icon-menu {
+   display: none;
+   margin: 0 auto;
+   width: 30px;
+   height: 18px;
+   position: relative; z-index: 5;
+   cursor: pointer;
+}
+.icon-menu span {
+   position: absolute;
+   top: calc(50% - 1px);
+   left: 0;
+   width: 100%; height: 2px;
+   background-color: white;
+
+}
+.icon-menu span:first-child {top: 0;}
+.icon-menu span:last-child {bottom: 0; top: auto;}
+@media screen and (max-width: 770px) {
+   .icon-menu {
+      display: block;
+   }
+
+   .text-1_s2, .text-2_s2 , .s2nav {
+      display: none;
+   }
+   .section-2 h2 {display: none;}
+   
+}

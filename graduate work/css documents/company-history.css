@@ -1,0 +1,361 @@
+.container {margin: 0px 20px;} 
+/* СЕКЦИЯ-1 */
+body {
+   font-family: 'Comfortaa', cursive;
+
+}
+.section-1 {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../images/s4/fons/fons/fon-1_s4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: max-content;
+}
+.text-s1 {
+   display: flex; justify-content: flex-start;
+   flex-direction: column;
+   color: white; padding: 0% 3%;
+}
+.name-company-s1 {
+   position: relative;
+   font-family: 'Courgette', cursive;
+   font-size: 180%;
+   margin-top: 4%;
+   margin-bottom: 21%;
+}
+.welcome-s1 {
+   font-family: 'Comfortaa', cursive;
+   font-size: 450%;
+   width: 50%; 
+   white-space: normal; word-wrap: break-word;
+   letter-spacing: 10px;
+    margin-top: 5%;
+}
+.vector-s1 { margin: 0 auto;
+   width: 5%; height: 2%; padding-bottom: 1%;
+}
+.bottom {
+   width: 100%; background-color: black; height: 5vh;
+}
+/* СЕКЦИЯ-2 НАВИГАЦИЯ */
+.section-2 {
+   background-color: black; color: white;
+   text-align: center;
+}
+.section-2 .container {
+   margin: 0 15%;
+}
+h2 {
+   font-family: 'Comfortaa', cursive;
+}
+.text_s2 {
+   font-family: 'Comfortaa', cursive;
+   gap: 10px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   font-size: 120%;
+   transition: 1s;
+}
+.text_s2 li {
+   margin: 8% 0;
+}
+ .text_s2 a:hover {color: rgb(229, 206, 147);}
+h2 {
+   padding: 1% 0;
+   position: relative;
+   cursor: pointer;
+	line-height: 1; /*задаём высоту строки*/
+}
+h2:after {
+   margin: 0 auto;
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #3e3300; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+h2:hover:after,
+h2:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+/* СЕКЦИЯ-3  */
+.section-3 {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/s4/fons/fons/fon-3_s4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: max-content; color: white;
+   padding: 2% 4%;
+}
+.flex_s3 { text-align: center; margin-top: 2%;
+   display: flex; flex-direction: row; justify-content: center;
+}
+.flex_s3 img {
+   
+   width: 40%; border-radius: 20px;
+   margin:  0 2%;
+}
+@keyframes coin {
+   from {
+      transform: rotate(0);
+   }
+   to{
+      transform: rotate(360deg);
+   }
+}
+.flex_s3 p {
+   font-size: 130%; 
+   width: 40%;
+   border-radius: 20px;
+    margin:  0 2%; padding: 6% 2%;
+   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+}
+/* СЕКЦИЯ-4  */
+.section-4 {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9) ), url(../images/s4/fons/fons/fon-4_s4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: max-content; color: white;
+   padding: 4% 4%;
+}
+.flex_s4 { text-align: center; margin-top: 2%;
+   display: flex; flex-direction: row; justify-content: space-between;
+}
+.flex_s4 img {
+   animation: coin 25s infinite;
+
+   width: 10%; height: 9vw; 
+   border-radius: 10px;
+   margin:  0 2%; margin-top: 8%;
+}
+.flex_s4 p {
+   font-size: 130%; 
+   width: 40%;
+   border-radius: 20px;
+    margin:  0 2%; padding: 6% 2%;
+   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+}
+
+/* СЕКЦИЯ 5 */
+.section-5 {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9) ), url(../images/s4/fons/fons/fon-5_s4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: max-content; color: white;
+   padding: 4% 4%;
+}
+.flex-1_s5 {
+   flex-direction: row; display: flex; justify-content: center;
+    height: max-content;
+   margin: 0 5%;text-align: center;
+}
+.flex-2-S5 { margin: 0 auto;
+   flex-direction: row; display: flex; margin-bottom: 50%;
+   margin-top: 30%;
+}
+.block-2_s5 { position: relative; left: -40%;
+   flex-direction: column; display: flex;
+   text-align: center;
+}
+.block-2_s5 p{
+   font-size: 130%;
+   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+   width: 190%;
+   border-radius: 20px;
+   padding: 1% 0%; text-align: center;
+}
+.flex-2-S5 img{
+   animation: coin 25s infinite;
+
+   margin: 0 10%;
+   width: 40%;
+}
+.block-1_s5 p{
+   font-size: 130%;
+   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+   width: 40%; line-height: 35px;
+   border-radius: 20px;
+   padding: 6% 2%; text-align: center;
+}
+/* СЕКЦИЯ-6  */
+.section-6 {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/s4/fons/fons/fon-6_s4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: max-content; color: white;
+   padding: 2% 2%;
+}
+.flex_s6 {
+   text-align: center; display: flex; flex-direction: column;
+   text-align: center; justify-content: center;
+} 
+.flex_s6 p {
+   background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) );
+   padding: 2%;
+   border-radius: 30px;
+   margin: 2% auto;
+   font-size: 130%;
+   text-align: center;
+}
+.p-1 { 
+   width: 50%;
+}
+.p-2 {
+   width: 80%;
+}
+
+/* СЕКЦИЯ-7  */
+.section-7 {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/s4/fons/fons/fon-7_s4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: max-content; color: white;
+   padding: 5% 2%;
+}
+.flex_s7 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: 1% 4%;
+}
+.block-1_s7 {
+   display: flex; flex-direction: row;
+}
+.block-1_s7 img{
+   animation: coin 25s infinite;
+
+   border-radius: 50%;
+}
+.img-1_s7 {
+   width: 65%;
+}
+
+.img-2_s7 {
+   left: 6%;
+   position: relative;
+
+   width: 30%; height: 45%;
+}
+.block-2_s7 p{
+   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
+   padding: 4%;
+   border-radius: 30px;
+   margin: 2% auto;
+   font-size: 120%;
+   width: 70%;
+   text-align: center;
+   line-height: 50px;
+}
+/* FOOTER  */
+/* FOTEEER */
+footer {
+   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/section-1Fons/footer1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: max-content;
+   color: white;
+   text-align: center;
+   font-family: 'Comfortaa', cursive;
+   padding: 2%;
+}
+.flex_f {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+.block-social_f {
+   display: flex; justify-content: center;
+   flex-direction: row; 
+   margin: 3% auto;
+   text-align: center;
+
+}
+.block-social_f a {
+   display: inline-block; vertical-align: middle;
+}
+.instagram {
+   background:  url(../images/social/инстаграм.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 50px; height: 50px;
+   margin: 0 0;
+
+}
+.watsapp {
+      background:  url(../images/social/ватсап.png);
+       background-repeat: no-repeat;
+      background-size: cover;
+      width: 90px; height: 90px;
+      margin: 0% 2%;
+      margin-top: -2%;
+
+}
+.vk {
+   background:  url(../images/social/вк.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 50px; height: 50px;
+   margin: 0 0;
+
+}
+.quote {
+   margin: 0 auto;
+   text-align: center;
+   width: 40%;
+}
+.text-social_f {
+   width: 50%; margin: 0 auto;
+}
+.right_f h2{
+   font-family: 'Courgette', cursive;
+
+}
+/* БУРГЕР МЕНЮ */
+
+
+
+.menu__list {
+   padding: 5% 0;
+   display: none; flex-direction: column;justify-content: center;
+   gap: 35px; font-size: 120%; text-align: center;
+   font-family: 'Comfortaa', cursive;
+   height: 60vh;
+
+}
+.container-b-menu {
+   display: block;
+}
+.menu__list li {list-style: none; margin: 2%;}
+.icon-menu {
+   display: none;
+   margin: 0 auto;
+   width: 30px;
+   height: 18px;
+   position: relative; z-index: 5;
+   cursor: pointer;
+}
+.icon-menu span {
+   position: absolute;
+   top: calc(50% - 1px);
+   left: 0;
+   width: 100%; height: 2px;
+   background-color: white;
+
+}
+.icon-menu span:first-child {top: 0;}
+.icon-menu span:last-child {bottom: 0; top: auto;}
+@media screen and (max-width: 770px) {
+   .icon-menu {
+      display: block;
+   }
+
+   .text-1_s2, .text-2_s2 , .s2nav {
+      display: none;
+   }
+   .section-2 h2 {display: none;}
+   
+}

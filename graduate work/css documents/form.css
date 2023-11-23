@@ -1,0 +1,56 @@
+body {
+   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/s4/fons/form/fon_form.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: max-content;
+   color: white;
+   font-family: 'Comfortaa', cursive;
+
+}
+.container {margin: 0px 20px;} 
+.form-container {
+   width: 50%;
+   margin: 0 auto; text-align: center; padding: 7.5% 0;
+   background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5) );
+   height: fit-content;
+}
+.btn { padding: 1% 6%;
+   font-family: 'Comfortaa', cursive;
+
+   background-color: black; color: white;
+   border: 1px solid #9f5500; border-radius: 25px;
+   ; cursor: pointer; 
+}
+.btn:hover{
+   border: 1px solid #f2870e
+}
+.block {
+   padding-bottom: 15%;
+
+}
+input {
+   background-color: rgb(227, 227, 227);
+   border-radius: 15px;
+}
+textarea {
+   background-color: rgb(227, 227, 227);
+   border-radius: 15px;
+
+}
+a:hover {
+   color: rgb(154, 230, 244);
+}
+@media screen and (max-width: 943px) {
+   textarea {
+
+      width: 80%;
+   }
+}
+@media screen and (max-width: 943px) {
+   .form-container {
+      width: 90%;
+   }
+   .form-container h1 {
+      font-size: 120%;
+   }
+}
